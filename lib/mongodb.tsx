@@ -12,19 +12,3 @@ const mongodb = async () => {
 };
 
 export default mongodb;
-
-// const mongodb = async () => {
-//   try {
-//     const uri = process.env.MONGODB_URI;
-//     const options = {
-//       useNewUrlParser: true,
-//       useUnifiedTopology: true,
-//     };
-//     await mongoose.connect(uri, options);
-//     console.log("connected to mongodb...");
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-
-// export default mongodb;
