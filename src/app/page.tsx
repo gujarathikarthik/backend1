@@ -50,6 +50,7 @@ export default function Home() {
         placeholder="enter your name"
       />
       <button onClick={handleSubmit}>submit</button>
+      <p>done</p>
       <hr />
       <div>
         <button onClick={handleRefresh}>refresh</button>
